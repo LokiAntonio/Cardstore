@@ -20,7 +20,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#FF5722">
 
         <!-- ImageVIew to display our Course Image -->
         <ImageView
@@ -40,7 +41,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@id/cardImage"
-            android:textColor="@color/black"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -55,6 +56,6 @@
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/cardImage"
             android:drawablePadding="2dp"
-            />
+            android:textColor="#FFFFFF" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

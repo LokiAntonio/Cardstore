@@ -18,7 +18,7 @@ public class portada extends AppCompatActivity {
     }
     public void Siguiente (View view) {
 
-        view.getContext().startActivity(new Intent(view.getContext(), MainActivity.class));
+        view.getContext().startActivity(new Intent(view.getContext(), LoginActivity.class));
 
     }
 }

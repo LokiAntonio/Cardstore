@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#ff8000"
+    android:background="#0C0C0C"
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:backgroundTint="#ff8000"/>
+        android:background="#0C0C0C" />
 </RelativeLayout>
